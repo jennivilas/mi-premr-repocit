@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #f2c94c;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #bda72a;
+            color: white;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        article {
+            flex-basis: 70%;
+            margin-right: 20px;
+        }
+        aside {
+            flex-basis: 25%;
+            background-color: #f9f9f9;
+            padding: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido a Nuestra Cafetería JEN!</h1>
+    </header>
+
+    <nav>
+        <a href="#menu">Menú</a>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <main>
+        <article>
+            <section id="menu">
+                <h2>Nuestro Menú</h2>
+                <p>Aquí puedes encontrar una selección de nuestras especialidades:</p>
+                <ul>
+                    <li>Café Espresso</li>
+                    <li>Café Americano</li>
+                    <li>Café Latte</li>
+                    <li>Cappuccino</li>
+                    <li>Mocha</li>
+                    <li>Pastelería variada</li>
+                    <li>Galletas horneadas</li>
+                    <li> Postres frios</li>
+                </ul>
+            </section>
+
+            <section id="about">
+                <h2>Sobre Nosotros</h2>
+                <p>Somos una cafetería dedicada a ofrecer café de calidad y un ambiente acogedor para nuestros clientes.</p>
+            </section>
+        </article>
+
+        <aside>
+            <h2>Horario de Atención</h2>
+            <p>Lunes a Viernes: 8am - 8pm</p>
+            <p>Sábado y Domingo: 9am - 6pm</p>
+            <h2>Ubicación</h2>
+            <p>AV.TOMAS BUENO, PUERTO MALDONADO, PERU </p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nuestra Cafetería JEN</p>
+    </footer>
+</body>
+</html>
